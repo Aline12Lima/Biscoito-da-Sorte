@@ -1,0 +1,233 @@
+body{
+
+    font-size: 1.6rem;
+    display: grid;
+    align-items: center;
+    background-color: #b99d77;
+}
+.hide{
+    display: none;
+
+}
+
+main{
+    background: #FFFFFF;
+ 
+
+    padding: 4.0rem 4.0rem 4.0rem 4.0rem;
+    gap: 0px;
+    border-radius: .5rem;
+   
+
+    width: min(38rem, 90%);
+    margin: 0  auto;
+
+    margin-top: 1.8rem;
+   
+    text-align: center;
+
+
+}
+
+div.frente{
+    width: 30.0rem;
+    height:31.2rem;
+    top:4.8rem;
+    left:6.4rem;
+    gap: 0px;
+    opacity: 0px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.8rem;
+
+}
+
+div.ftr{
+    height: 17.5rem;
+    width: (min)27.5rem max-content(27.5rem);
+    left: 6.3rem;
+    padding: .64rem .97rem .17rem .5rem;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#cookie{
+    background-image: url(./assets/Ebene\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: 35vh;
+
+    width: 100%;
+    height:100%;
+    cursor:pointer;
+}
+
+
+div#cookie:hover{
+    transform: translateX(1rem);
+    animation: transform 96ms ease 0ms infinite;
+}
+
+@keyframes transform {
+    0% {
+        transform: translateX(10px);
+    }
+    0% {
+        transform: translateX();
+    }
+}
+
+
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    color: #34355B;
+
+
+}
+
+h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #34355B;
+}
+
+
+
+
+/*parte2*/
+
+div.verso{
+    
+
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+
+    width: 40.0rem;
+    height:40.7rem;
+    top:4.8rem;
+    left:6.4rem;
+    padding: .64rem .97rem .17rem .5rem;
+  
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.8rem;
+
+
+
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    color: #34355B;
+    line-height: 4rem;
+
+}
+div.text{
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+    color: #000000;
+    
+    width: 27.3rem;
+    height: 8.7rem;
+    place-items: center;
+    padding: .5rem .5rem .5rem .5rem;
+    
+    
+}
+
+div.text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5rem;
+    background: #E4EDF1;
+
+    border-radius:.3rem;
+  
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+
+    width: min(42.8rbem , 90%);
+    
+ 
+    text-align: center;
+
+}
+
+
+
+div.imagem{
+
+
+    margin-top: .5rem;
+    width: 28rem;
+    height: 7rem;
+    padding: 3.3rem 0px 3.3rem 0px;
+    gap: 0px;
+    opacity: 0px;
+    place-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+button{
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: #FF9500;
+    text-align: center;
+  
+
+
+}
+
+button{
+    width: 16.0rem;
+    padding: .6rem .6rem 2.6rem .6rem;
+    height: 2rem;
+    border-radius: 4px 0px 0px 0px;
+
+   
+    margin-top: 0;
+    border: 0;
+    border-radius: .2rem;
+    
+    
+    
+    opacity: 0px;
+}
+
+
+button{
+    
+    font-size: 1.3rem;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.9rem;
+
+
+}
+
+div.text:hover{
+    transform:translate3d(12px, 50%, 3em);
+    animation: transform 2000ms ease 1ms infinite;
+}
+
+@keyframes transform {
+    0% {
+        transform: translateX(10px);
+    }
+    0% {
+        transform: translateX();
+    }
+}
